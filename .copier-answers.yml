@@ -1,0 +1,12 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: 2023.09.21
+_src_path: gh:scientific-python/cookie
+backend: hatch
+email: kilian.lieret@posteo.de, philipp.zehetner@cern.ch
+full_name: Kilian Lieret, Philipp Zehetner
+license: MIT
+org: object-condensation
+project_name: oc_benchmarking
+project_short_description: Benchmarking for the object_condensation losses
+url: https://github.com/object-condensation/benchmarking
+vcs: true
