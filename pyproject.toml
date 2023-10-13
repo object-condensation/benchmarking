@@ -6,7 +6,8 @@ build-backend = "hatchling.build"
 [project]
 name = "oc_benchmarking"
 authors = [
-  { name = "Kilian Lieret, Philipp Zehetner", email = "kilian.lieret@posteo.de, philipp.zehetner@cern.ch" },
+  { name = "Kilian Lieret", email = "kilian.lieret@posteo.de" },
+  { name = "Philipp Zehetner", email = "philipp.zehetner@cern.ch" },
 ]
 description = "Benchmarking for the object_condensation losses"
 readme = "README.md"
@@ -39,13 +40,6 @@ test = [
 dev = [
   "pytest >=6",
   "pytest-cov >=3",
-]
-docs = [
-  "sphinx>=7.0",
-  "myst_parser>=0.13",
-  "sphinx_copybutton",
-  "sphinx_autodoc_typehints",
-  "furo>=2023.08.17",
 ]
 
 [project.urls]
@@ -139,7 +133,6 @@ unfixable = [
 ]
 exclude = []
 flake8-unused-arguments.ignore-variadic-names = true
-isort.required-imports = ["from __future__ import annotations"]
 # Uncomment if using a _compat.typing backport
 # typing-modules = ["oc_benchmarking._compat.typing"]
 
